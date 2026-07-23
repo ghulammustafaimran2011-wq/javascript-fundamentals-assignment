@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+#message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.button-group {
+    margin-top: 15px;
+}
+
+.button-group button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.edit-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#emptyMessage {
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.dark {
+    background-color: #222;
+    color: white;
+}
+
+.dark .container {
+    background-color: #333;
+}
+
+.dark input {
+    background-color: #555;
+    color: white;
+    border: 1px solid white;
+}
+
+.dark table,
+.dark th,
+.dark td {
+    border: 1px solid white;
+}
+
+.dark th {
+    background-color: black;
+}
